@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Tu Tiên | Digital Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="opening-scene" aria-label="Mở màn portfolio" tabindex="0">
+      <video class="opening-video" src="assets/intro.mp4" playsinline preload="auto"></video>
+      <div class="opening-content">
+        <h1>Nhật Quang Thần Tông</h1>
+        <p>Khách hữu duyên, xin nhập sơn môn</p>
+        <div class="opening-actions">
+          <button class="opening-enter" type="button">Nhập sơn môn</button>
+        </div>
+      </div>
+    </section>
+
+    <button class="music-toggle" type="button" aria-pressed="false" aria-label="Bật nhạc nền">
+      <span class="music-icon" aria-hidden="true">♪</span>
+      <span class="music-label">Bật nhạc</span>
+    </button>
+    <audio id="background-music" src="assets/background-music.mp3" preload="auto" loop autoplay muted playsinline></audio>
+
+    <header class="hero" id="top">
+      <div class="hero-motion" aria-hidden="true">
+        <span class="mist mist-one"></span>
+        <span class="mist mist-two"></span>
+        <span class="light-trail"></span>
+      </div>
+      <nav class="nav" aria-label="Điều hướng chính">
+        <a class="brand" href="#top">
+          <span class="brand-mark">丹</span>
+          <span>Nhật Quang Thần Tông</span>
+        </a>
+        <div class="nav-links">
+          <a href="#about">Giới thiệu</a>
+          <a href="#projects">Dự án</a>
+          <a href="#reflection">Tổng kết</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</p>
+        <h1>Hành trình luyện đạo kỹ thuật số</h1>
+        <p class="hero-copy">
+          Một portfolio cá nhân hóa theo phong cách tu tiên, nơi kiến thức, kỹ năng và
+          sản phẩm học tập được gom thành từng cảnh giới rõ ràng.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Xem pháp bảo dự án</a>
+          <a class="btn ghost" href="#reflection">Đọc tổng kết</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section path" aria-labelledby="goals-title">
+        <div class="section-heading">
+          <p class="kicker">Mục tiêu Portfolio</p>
+          <h2 id="goals-title">Ba tầng tu luyện portfolio</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <h3>Nhập Đạo</h3>
+            <p>Giới thiệu thân thế, tông môn,
+đạo hiệu và chí hướng trên
+con đường cầu học giữa
+kỷ nguyên số.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Tàng Kinh Các</h3>
+            <p>Thu thập và lưu giữ các
+thành quả tu luyện qua từng
+bài tập, dự án và lần
+ngộ đạo tri thức.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Tâm Đắc Đạo Kinh</h3>
+            <p>Lưu lại cảm ngộ trên hành trình
+tu học, chia sẻ kinh nghiệm
+và những bài học lĩnh ngộ
+sau mỗi lần phá cảnh.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div class="section-heading">
+          <p class="kicker">1. Nhập Đạo</p>
+          <h2>Chân dung tu sĩ số</h2>
+        </div>
+        <div class="intro-grid">
+          <article class="profile-panel">
+            <h3>Lai lịch tu sĩ</h3>
+            <ul>
+              <li><span>Đạo hiệu</span><strong>Bùi Công Nhật Quang</strong></li>
+              <li><span>Tông môn</span><strong class="nowrap">Trường ĐH Công nghệ - ĐHQGHN</strong></li>
+              <li><span>Lệnh bài</span><strong>25024159</strong></li>
+              <li><span>Chủ tu</span><strong>AI, dữ liệu và sáng tạo nội dung số</strong></li>
+            </ul>
+            <p class="profile-quote">
+              Mực chưa cạn, đạo chưa thành,<br>
+              Đèn còn sáng, chí còn xanh.
+            </p>
+          </article>
+          <article class="manifesto">
+            <h3>Đạo tâm và chí hướng</h3>
+            <section class="intro text-center">
+    <p class="lead">
+        Thiên địa biến chuyển, kỷ nguyên số mở ra. Kẻ tu đạo thời nay không chỉ luyện khí, luyện thể mà còn phải luyện prompt, luyện AI và truy vấn tri thức giữa biển dữ liệu vô tận.
+    </p>
+
+    <p>
+        Động phủ này lưu giữ những thành quả tu luyện của ta trong học phần
+        <strong>Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</strong>.
+        Mỗi bài tập là một lần ngộ đạo, mỗi sản phẩm là một bước đột phá trên con đường lĩnh hội công nghệ số, AI và liêm chính học thuật.
+    </p>
+
+    <blockquote>
+        <em>“Đạo số vô biên, ta vẫn đang trên đường cầu đạo.”</em>
+    </blockquote>
+</section>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading">
+          <p class="kicker">2. Tàng Kinh Các</p>
+          <h2>Lục đại pháp bảo học tập</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="realm">Luyện Khí</span>
+            <h3>Bài tập 1 - Bài 1: Máy tính và các thiết bị ngoại vi</h3>
+            <p>Trình bày mục tiêu bài tập, quá trình tìm hiểu máy tính, thiết bị ngoại vi và sản phẩm minh chứng cuối cùng.</p>
+            <div class="project-actions">
+              <a class="view-link" href="minh-chung/bai1.html">Xem trực tiếp</a>
+              <a href="minh-chung/bai1.docx" download>Tải DOCX</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="realm">Trúc Cơ</span>
+            <h3>Bài tập 2 - Bài 2: Khai thác dữ liệu và thông tin</h3>
+            <p>Tóm tắt cách thu thập, khai thác, đánh giá thông tin và đính kèm kết quả đã hoàn thành.</p>
+            <div class="project-actions">
+              <a class="view-link" href="minh-chung/bai2.html">Xem trực tiếp</a>
+              <a href="minh-chung/bai2.docx" download>Tải DOCX</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="realm">Kết Đan</span>
+            <h3>Bài tập 2 - Bài 3: Tổng quan về trí tuệ nhân tạo</h3>
+            <p>Giới thiệu mục tiêu tìm hiểu AI, các nội dung chính đã nghiên cứu và sản phẩm minh họa kèm theo.</p>
+            <div class="project-actions">
+              <a class="view-link" href="minh-chung/bai3.html">Xem trực tiếp</a>
+              <a href="minh-chung/bai3.docx" download>Tải DOCX</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="realm">Nguyên Anh</span>
+            <h3>Bài tập 3 - Bài 4: Giao tiếp và hợp tác trong môi trường số</h3>
+            <p>Mô tả quá trình phối hợp trực tuyến, công cụ đã sử dụng và minh chứng cho hoạt động giao tiếp số.</p>
+            <div class="project-actions">
+              <a class="view-link" href="minh-chung/bai4.html">Xem trực tiếp</a>
+              <a href="minh-chung/bai4.docx" download>Tải DOCX</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="realm">Hóa Thần</span>
+            <h3>Bài tập 2 - Bài 5: Sáng tạo nội dung số</h3>
+            <p>Trưng bày sản phẩm nội dung số, tóm tắt quy trình thực hiện và vai trò của công cụ hỗ trợ sáng tạo.</p>
+            <div class="project-actions">
+              <a class="view-link" href="minh-chung/bai5.html">Xem trực tiếp</a>
+              <a href="minh-chung/bai5.docx" download>Tải DOCX</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="realm">Đại Thừa</span>
+            <h3>Bài tập 4 - Bài 6: An toàn và liêm chính học thuật trong môi trường số</h3>
+            <p>Phân tích các nguyên tắc an toàn số, liêm chính học thuật, cách trích dẫn và sử dụng AI có trách nhiệm.</p>
+            <div class="project-actions">
+              <a class="view-link" href="minh-chung/bai6.html">Xem trực tiếp</a>
+              <a href="minh-chung/bai6.docx" download>Tải DOCX</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reflection" id="reflection">
+        <div class="section-heading">
+          <p class="kicker">3. Tâm Đắc Đạo Kinh</p>
+          <h2>Nhật ký xuất quan</h2>
+        </div>
+        <div class="reflection-panel">
+    <p>
+        Khi mới nhập môn, trước mặt ta là biển tri thức mênh mông, không biết đâu là bến bờ.
+        Qua từng lần tìm kiếm thông tin, xây dựng prompt và hoàn thành bài tập,
+        ta dần học được cách tự mình mở đường giữa màn sương tri thức.
+    </p>
+
+    <p>
+        Hành trình này giúp ta hiểu rằng công nghệ chỉ là pháp bảo,
+        còn tư duy và tinh thần học hỏi mới là căn cơ của người tu đạo.
+    </p>
+
+    <p class="closing-quote">
+    Vạn quyển đạo kinh chưa đọc hết,<br>
+    Một lòng cầu học vẫn không thôi.<br><br>
+
+    Trường phong vạn lý còn chưa tận,<br>
+    Đạo lộ thiên thu vẫn tiến thôi.
+</p>
+</div>
+      </section>
+    </main>
+
+    <section class="evidence-viewer" aria-hidden="true" aria-label="Xem minh chứng">
+      <div class="evidence-viewer-bar">
+        <div>
+          <span>Minh chứng</span>
+          <h2 id="evidence-viewer-title">Bài tập</h2>
+        </div>
+        <div class="evidence-viewer-actions">
+          <a id="evidence-viewer-download" href="minh-chung/bai1.docx" download>Tải DOCX</a>
+          <button class="evidence-viewer-close" type="button">Quay lại Portfolio</button>
+        </div>
+      </div>
+      <iframe id="evidence-viewer-frame" title="Nội dung minh chứng"></iframe>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-credit">
+        <span>© 2026 Quang Bùi</span>
+        <p>
+          Đạo kinh có chủ, công pháp hữu danh.<br>
+          Kẻ hữu duyên có thể tham khảo, người vô ý xin chớ tùy tiện sao truyền.
+        </p>
+      </div>
+      <div class="footer-action">
+        <a href="#top">Trở về đỉnh núi</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
